@@ -3,6 +3,9 @@ This is a mod for GTA V to make the train and the tram faster.
 
 You can even configure the speed of the train if you want it even faster!
 
+## How to Install
+Place the traintracks.xml file to update\update.rpf\common\data\levels\gta5\
+
 ## Informations
 The train track that have a filename "trains1.dat" is the train/freight track.
 
@@ -12,8 +15,7 @@ The speed value in meters per second determines how fast is the train.
 
 The brakingDist determine how far the train will brake from the train station in meters.
 
-## The value of the braking distance (brakingDist)
-
+### The value of the braking distance (brakingDist)
 Based on our experiment, the value of the brakingDist of the freight track should be the speed multipiled by 4.
 
 brakingDist = 4x where x is the speed of the freight train in m/s.
@@ -31,5 +33,4 @@ If the brakingDist is lower than the suggested value, the train will not stop or
 If the brakingDist is higher than the suggested value, the train will stop before reaching the train station.
 
 ## Demo
-
 https://www.youtube.com/watch?v=pm-fRtqKjjQ
